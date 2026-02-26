@@ -1,7 +1,7 @@
 {
     "project_name": "My Awesome Project",
     "description": "",
-    "project_slug": "{{ cookiecutter.project_name.replace(' ', '_') }}",
+    "project_folder": "{{ cookiecutter.project_name.replace(' ', '_') }}",
     "author_name": "Nikita Emelyanov",
     "author_email": "n.emelianov@uzum.com",
     "license": ["MIT", "BSD-3-Clause"],

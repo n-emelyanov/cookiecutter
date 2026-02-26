@@ -1,5 +1,5 @@
 [project]
-name = "{{cookiecutter-project-name}}"
+name = "{{cookiecutter.project_name}}"
 version = "0.1.0"
 description = {{cookiecutter.description}}
 {% if cookiecutter.license != 'No license file' %}license = { file = "LICENSE" }{% endif %}
