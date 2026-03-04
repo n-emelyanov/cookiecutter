@@ -7,4 +7,5 @@ help:  ## Показать доступные команды
 init:  ## Инициализация git, poetry, активация окружения
 	git init
 	poetry install
-	source $(poetry env info --path)/bin/activate
+	/bin/bash -c "source $$(poetry env info --path)/bin/activate && exec bash"
+	@echo "✅ Проект инициализирован!"
