@@ -15,3 +15,10 @@ pipx install cookiecutter
 ```bash
 cookiecutter https://github.com/n-emelyanov/cookiecutter
 ```
+
+# Makefile
+После формирования структуры папок выполните инициализацию проекта:
+```bash
+# Инициализация проекта (git + poetry)
+make init
+```
